@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container-header">
+        <div class="header">
+            <h1>DojoWeather</h1>
+            <ul>
+                <li onclick="city(this)">Burbank</li>
+                <li onclick="city(this)">Chicago</li>
+                <li onclick="city(this)">Dallas</li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <div class="row1">
+            <h2>San Jose</h2>
+            <form>
+                <label>Show temperature in</label>
+                <select name="escale" id="escala">
+                    <option value="celsius">°C</option>
+                    <option value="farenheit">°F</option>
+                </select>
+            </form>
+            
+        </div>
+        <div class="row2">
+            <div class="box">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png" alt="img">
+                <p class="tiempo">some rain</p>
+                <p class="temperatura">
+                    <span class="temp-max">24°</span>
+                    <span class="temp-min">18°</span>
+                </p>
+            </div>
+            <div class="box">
+                <h3>Tomorrow</h3>
+                <img src="assets/some_sun.png" alt="img">
+                <p class="tiempo">some sun</p>
+                <p class="temperatura">
+                    <span class="temp-max">24°</span>
+                    <span class="temp-min">18°</span>
+                </p>
+            </div>
+            <div class="box">
+                <h3>Friday</h3>
+                <img src="assets/some_clouds.png" alt="img">
+                <p class="tiempo">some clouds</p>
+                <p class="temperatura">
+                    <span class="temp-max">24°</span>
+                    <span class="temp-min">18°</span>
+                </p>
+            </div>
+            <div class="box">
+                <h3>Saturday</h3>
+                <img src="assets/some_sun.png" alt="img">
+                <p class="tiempo">some rain</p>
+                <p class="temperatura">
+                    <span class="temp-max">24°</span>
+                    <span class="temp-min">18°</span>
+                </p>
+            </div>
+        </div>
+        <footer>
+            <div class="cookie">
+                <img src="assets/cookie.png" alt="cookie">
+                <div class="text-cookie">
+                    <h3>Stop! Cookie time</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, quas. Saepe eius provident eveniet impedit numquam aspernatur temporal repellat alias. <a href="#">Read more..</a></p>
+                </div>
+                <button class ="button" onclick="button(this)">I Accept</button>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
